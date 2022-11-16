@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  overflow: hidden;
+  margin: 5rem auto;
+}
+
+button {
+  outline: 0;
+}
+
+.btns {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.btns .btn {
+  width: 33.33%;
+  border-radius: 0;
+  border: 1px solid #54bab9;
+  padding: 1rem;
+  background: #fff;
+  color: #54bab9;
+  transition: all 0.3s ease;
+}
+
+.btns .btn:hover,
+.btns .btn.active {
+  background: #54bab9;
+  color: #fff;
+}
+
+.panels .panel:not(:first-child) {
+  display: none;
+}
+
+.panels .panel {
+  border: 1px solid #54bab9;
+  padding: 0.5rem;
+}
